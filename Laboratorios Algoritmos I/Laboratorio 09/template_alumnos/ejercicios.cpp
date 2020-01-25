@@ -3,6 +3,7 @@
 #include <ctime>
 #include "stdlib.h"
 #include <string>
+#include <cmath>
 #include<iostream>
 
 using namespace std;
@@ -14,10 +15,10 @@ int busquedaBinaria(vector<int> v, int x) {
     int res = -1;
     bool seAlcanzoTamanio0 = false;
     bool encontrado = false;
-    bool ordDesc=false;
-    if(v.size()>0){
-        if(v[0]>v[1]){
-            ordDesc=true;
+    bool ordDesc = false;
+    if (v.size() > 0) {
+        if (v[0] > v[1]) {
+            ordDesc = true;
         }
     }
     if (ordDesc) {
@@ -61,12 +62,30 @@ int busquedaBinaria(vector<int> v, int x) {
 }
 
 int busquedaJumpSearch(vector<int> v, int x) {
-    return -1;
+    //este algoritmos funciona como una busqueda lineal cuando el vector esta ordenado al reves
+    //lo ideal seria utilizar la misma estrategia pero a la inversa
+    int res = -1;
+    int m = 0;
+    bool encontrado = false;
+    int raiz = (int) sqrt(v.size());
+    while (v[m] < x && m < v.size()) {
+        m = m + raiz;
+    }
+    if(m!=0){
+        m = m - raiz;
+    }
+    for (int i = m; i < v.size() && !encontrado; i++) {
+        if (v[i] == x) {
+            encontrado = true;
+            res = i;
+        }
+    }
+    return res;
 }
 
 int buscar(vector<int> v, int x) {
-    return busquedaBinaria(v, x);
-    //return busquedaJumpSearch(v, x);
+    //return busquedaBinaria(v, x);
+    return busquedaJumpSearch(v, x);
 }
 
 

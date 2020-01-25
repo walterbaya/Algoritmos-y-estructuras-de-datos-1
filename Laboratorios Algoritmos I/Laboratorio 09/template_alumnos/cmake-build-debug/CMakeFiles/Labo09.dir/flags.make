@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem "/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/lib/googletest-master/googletest/include" 
+CXX_INCLUDES = -isystem "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 09/template_alumnos/lib/googletest-master/googletest/include" 
 

@@ -6,21 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/ejercicios.cpp
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 09/template_alumnos/ejercicios.cpp
 ejercicios.h
-/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/ejercicios.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 09/template_alumnos/ejercicios.h
 time.h
-/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/time.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 09/template_alumnos/time.h
 ctime
 -
 stdlib.h
-/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/stdlib.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 09/template_alumnos/stdlib.h
 string
+-
+cmath
 -
 iostream
 -
 
-/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/ejercicios.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 09/template_alumnos/ejercicios.h
 vector
 -
 string

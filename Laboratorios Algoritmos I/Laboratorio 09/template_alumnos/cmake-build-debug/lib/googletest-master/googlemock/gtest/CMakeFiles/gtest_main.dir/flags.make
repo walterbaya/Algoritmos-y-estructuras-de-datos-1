@@ -6,5 +6,5 @@ CXX_FLAGS = -g    -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PT
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/lib/googletest-master/googletest" -isystem "/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/lib/googletest-master/googletest/include" 
+CXX_INCLUDES = -I"/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 09/template_alumnos/lib/googletest-master/googletest" -isystem "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 09/template_alumnos/lib/googletest-master/googletest/include" 
 
