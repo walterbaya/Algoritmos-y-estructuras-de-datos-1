@@ -30,7 +30,7 @@ int busquedaBinaria(vector<int> v, int x) {
                 encontrado = true;
                 res = med;
             } else {
-                if (v[med] >= x) {
+                if (v[med] > x) {
                     izq = med + 1;
                     med = (izq + der) / 2;
                 } else {
@@ -48,7 +48,7 @@ int busquedaBinaria(vector<int> v, int x) {
                 encontrado = true;
                 res = med;
             } else {
-                if (v[med] <= x) {
+                if (v[med] < x) {
                     izq = med + 1;
                     med = (izq + der) / 2;
                 } else {
@@ -71,7 +71,7 @@ int busquedaJumpSearch(vector<int> v, int x) {
     while (v[m] < x && m < v.size()) {
         m = m + raiz;
     }
-    if(m!=0){
+    if (m != 0) {
         m = m - raiz;
     }
     for (int i = m; i < v.size() && !encontrado; i++) {
@@ -84,8 +84,8 @@ int busquedaJumpSearch(vector<int> v, int x) {
 }
 
 int buscar(vector<int> v, int x) {
-    //return busquedaBinaria(v, x);
-    return busquedaJumpSearch(v, x);
+    return busquedaBinaria(v, x);
+    //return busquedaJumpSearch(v, x);
 }
 
 
@@ -134,7 +134,35 @@ int indicePico(vector<int> v) {
 }
 
 int puntoFijo(vector<int> v) {
-    return -1;
+    int med = v.size() / 2;
+    int izq = 0;
+    int der = v.size() - 1;
+    int res = -1;
+    bool tamanioMinimo = false;
+    while (!tamanioMinimo) {
+        if (der - izq == 0) {
+            tamanioMinimo = true;
+        }
+        if (v[med] == med) {
+            if (der - izq == 0) {
+                res = med;
+                tamanioMinimo = true;
+            } else {
+                res = med;
+                der = med;
+                med = med / 2;
+            }
+        }
+        if (v[med] > med) {
+            der = med;
+            med = med / 2;
+        } else {
+            izq = med + 1;
+            med = (izq + der) / 2;
+        }
+
+    }
+    return res;
 }
 
 int encontrarRotado(vector<int> v, int x) {
