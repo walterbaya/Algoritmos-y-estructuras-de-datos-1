@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/ejercicios.cpp
+ejercicios.h
+/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/ejercicios.h
+time.h
+/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/time.h
+ctime
+-
+stdlib.h
+/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/stdlib.h
+string
+-
+iostream
+-
+
+/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/ejercicios.h
+vector
+-
+string
+-
+

@@ -1,0 +1,12 @@
+/home/walter/Descargas/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos"
+-- Found PythonInterp: /usr/bin/python (found version "2.7.15") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/walter/Escritorio/Laboratorios Algoritmos I/Laboratorio 09-20200125/template_alumnos/cmake-build-debug
