@@ -166,11 +166,62 @@ int puntoFijo(vector<int> v) {
 }
 
 int encontrarRotado(vector<int> v, int x) {
-    return -1;
+    int medio = v.size() / 2;
+    int ultimo = v.size() - 1;
+    int primero = 0;
+    int res = -1;
+    bool encontrado = false;
+    while (ultimo - primero > 0 && !encontrado) {
+        if (x == v[medio]) {
+            res = medio;
+            encontrado = true;
+        } else if (x > v[medio]) {
+            if (x < v[ultimo]) {
+                primero = medio;
+                medio = medio + ultimo / 2;
+            } else {
+                ultimo = medio;
+                medio = primero + medio / 2;
+            }
+        } else {
+            if (v[primero] < x) {
+                ultimo = medio;
+                medio = primero + medio / 2;
+            } else {
+                primero = medio;
+                medio = medio + ultimo / 2;
+            }
+        }
+    }
+    if (ultimo - primero == 0) {
+        if (v[medio] == x) {
+            res = medio;
+        }
+    }
+
+    return res;
 }
 
 int menorMasGrande(vector<int> v, int x) {
-    return -1;
+    int izq = 0;
+    int der = v.size() - 1;
+    int med = (izq + der) / 2;
+    int res = -1;
+    bool tamanioMinimo = false;
+    while (!tamanioMinimo) {
+        if (v[med] >= x) {
+            res = med;
+            der = med;
+            med = med / 2;
+        } else {
+            izq = med + 1;
+            med = (izq + der) / 2;
+        }
+        if (der - izq == 0) {
+            tamanioMinimo = true;
+        }
+    }
+    return res;
 }
 
 vector<int> masCercanoK(vector<int> v, int k, int x) {
