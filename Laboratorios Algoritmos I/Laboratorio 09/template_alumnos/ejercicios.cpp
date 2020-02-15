@@ -130,7 +130,35 @@ vector<int> construir_vector(int size, string mode) {
 
 
 int indicePico(vector<int> v) {
-    return -1;
+    int medio = v.size() / 2;
+    int primero = 0;
+    int ultimo = v.size() - 1;
+    bool encontrado = false;
+    int res = -1;
+    while (ultimo - primero >= 0 && !encontrado) {
+        if (ultimo - primero == 0) {
+            res = primero;
+            encontrado = true;
+        } else if (ultimo - primero == 1) {
+            if (v[primero] > v[ultimo]) {
+                res = primero;
+                encontrado = true;
+            } else {
+                res = ultimo;
+                encontrado = true;
+            }
+        } else if (v[medio] >= v[medio - 1] && v[medio] >= v[medio + 1]) {
+            res = medio;
+            encontrado = true;
+        } else if (v[medio + 1] > v[medio]) {
+            primero = medio + 1;
+            medio = (primero + ultimo) / 2;
+        } else {
+            ultimo = medio;
+            medio = (primero + medio) / 2;
+        }
+    }
+    return res;
 }
 
 int puntoFijo(vector<int> v) {
