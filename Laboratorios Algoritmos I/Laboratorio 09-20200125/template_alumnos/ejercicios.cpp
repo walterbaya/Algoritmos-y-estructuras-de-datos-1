@@ -202,6 +202,37 @@ a)Se puede ver que los valores cambian, pero poco.Los valores siempre estan dent
 Para realizar la estimacion de C para el algoritmos de jumpSearch
  */
 
+/*
+Estimaciones de busqueda binaria
+0.008 0.006 0.02 0.843
+Estimaciones de JumpSearch
+0.007 0.026 0.241 2.872
+Evaluacion del size
+0.012 0.01 0.01 0.014
+Evaluacion del push
+0.019 0.013 0.021 0.778
+Evaluacion del pop
+0.012 0.011 0.017 0.012
+Evaluacion del []
+0.013 0.011 0.009 0.01
+Evaluacion del asignacion
+0.012 0.01 0.011 0.01
+Evaluacion del clear
+0.012 0.012 0.01 0.01
+Evaluacion del empty
+0.01 0.012 0.01 0.01
+ *
+ * Conclusiones
+ *
+ * Size: es constante O(1)
+ * Push: pareceria ser log(n) es muy similar al comportamiento de busqueda binaria
+ * Pop: es constante O(1)
+ * [] : es constante O(1) no depende claramente del i
+ * asignacion : es constante O(1) no depende claramente del i
+ * Clear : es constante O(1)
+ * Empty : es constante O(1)
+ *
+ * */
 int indicePico(vector<int> v) {
     int medio = v.size() / 2;
     int primero = 0;
