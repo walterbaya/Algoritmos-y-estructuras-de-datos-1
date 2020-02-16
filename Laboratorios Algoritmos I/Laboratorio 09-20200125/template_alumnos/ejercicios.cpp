@@ -88,7 +88,6 @@ int buscar(vector<int> v, int x) {
     //return busquedaJumpSearch(v, x);
 }
 
-
 double ejemplo_como_calcular_tiempos() {
     using namespace std;
     clock_t begin = clock();
@@ -128,6 +127,30 @@ vector<int> construir_vector(int size, string mode) {
     return res;
 }
 
+//Ejercicio 2
+
+double tiempoEjecucion (int size, string mode,string tipo){
+    vector<int> v = construir_vector(size,mode);
+    using namespace std;
+    clock_t begin = clock();
+    if(tipo == "binaria"){
+        int i = busquedaBinaria(v,5);
+    }
+    else{
+        int i = busquedaJumpSearch(v,5);
+    }
+    clock_t end = clock();
+    double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
+    return elapsed_secs;
+}
+/* Los valores obtenidos fueron
+ * Binaria asc y dsc
+
+
+a) 
+b)
+
+ * */
 
 int indicePico(vector<int> v) {
     int medio = v.size() / 2;
@@ -268,7 +291,7 @@ int posicionDelMasCercanoEnModulo(vector<int> v, int x) {
             medio = (medio + izquierda) / 2;
         } else {
             izquierda = medio;
-            medio = (medio + derecha) / 2;
+            medio = (medio + derecha) / 2 + 1;
         }
     }
     return res;
@@ -283,9 +306,8 @@ vector<int> masCercanoK(vector<int> v, int k, int x) {
 
     while (der - izq < k && !finalAlcanzado) {
         if (pos == 0 || izq == 0) {
-            if (der == v.size()) {
+            if (der == v.size() - 1) {
                 finalAlcanzado = true;
-                der--;
                 izq--;
             } else {
                 der++;

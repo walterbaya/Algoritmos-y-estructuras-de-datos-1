@@ -26,6 +26,7 @@ CMakeFiles/Labo09.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gt
 CMakeFiles/Labo09.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-string.h
 CMakeFiles/Labo09.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/Labo09.dir/main.cpp.o: ../lib/googletest-master/googletest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/Labo09.dir/main.cpp.o: ../ejercicios.h
 CMakeFiles/Labo09.dir/main.cpp.o: ../main.cpp
 
 CMakeFiles/Labo09.dir/tests/buscarTEST.cpp.o: ../lib/googletest-master/googletest/include/gtest/gtest-death-test.h

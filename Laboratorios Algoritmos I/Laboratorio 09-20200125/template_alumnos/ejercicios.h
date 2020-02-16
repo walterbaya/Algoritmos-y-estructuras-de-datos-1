@@ -1,3 +1,4 @@
+
 #include <vector>
 #include <string>
 
@@ -7,6 +8,7 @@ int busquedaBinaria(vector<int> v, int x);
 int busquedaJumpSearch(vector<int> v, int x);
 int buscar(vector<int> v, int x);
 double ejemplo_como_calcular_tiempos();
+double tiempoEjecucion (int size, string mode,string tipo);
 vector<int> construir_vector(int size, string mode);
 int indicePico(vector<int> v);
 int puntoFijo(vector<int> v);
