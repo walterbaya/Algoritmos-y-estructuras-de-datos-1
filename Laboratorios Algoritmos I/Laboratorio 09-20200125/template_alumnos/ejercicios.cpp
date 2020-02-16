@@ -88,7 +88,7 @@ int buscar(vector<int> v, int x) {
     //return busquedaJumpSearch(v, x);
 }
 
-double ejemplo_como_calcular_tiempos(vector<T> v, string operacion, int i, int value) {
+double ejemplo_como_calcular_tiempos(vector<int> v, string operacion, int i, int value) {
     using namespace std;
     clock_t begin = clock();
 
@@ -116,11 +116,6 @@ double ejemplo_como_calcular_tiempos(vector<T> v, string operacion, int i, int v
     } else if (operacion == "asignacion") {
         clock_t begin = clock();
         v[i] = value;
-        clock_t end = clock();
-        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
-    } else if (operacion == "flip") {
-        clock_t begin = clock();
-        v.flip();
         clock_t end = clock();
         double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
     } else if (operacion == "clear") {

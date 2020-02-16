@@ -47,7 +47,9 @@ int main(int argc, char **argv) {
 
     //Ejercicio 3
 
+    //Evaluacion del size
 
+    tiempo =
 
 
     return RUN_ALL_TESTS();
