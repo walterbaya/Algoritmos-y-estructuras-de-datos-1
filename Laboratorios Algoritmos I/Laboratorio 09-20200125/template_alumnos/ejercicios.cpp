@@ -88,12 +88,51 @@ int buscar(vector<int> v, int x) {
     //return busquedaJumpSearch(v, x);
 }
 
-double ejemplo_como_calcular_tiempos() {
+double ejemplo_como_calcular_tiempos(vector<T> v, string operacion, int i, int value) {
     using namespace std;
     clock_t begin = clock();
 
-    for (int i = 0; i < 100000; i++) {
-        // nada
+    if (operacion == "size") {
+        clock_t begin = clock();
+        clock_t end = clock();
+        v.size();
+        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
+
+    } else if (operacion == "push") {
+        clock_t begin = clock();
+        v.push_back(1);
+        clock_t end = clock();
+        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
+    } else if (operacion == "pop") {
+        clock_t begin = clock();
+        v.pop_back();
+        clock_t end = clock();
+        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
+    } else if (operacion == "[]") {
+        clock_t begin = clock();
+        v[i];
+        clock_t end = clock();
+        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
+    } else if (operacion == "asignacion") {
+        clock_t begin = clock();
+        v[i] = value;
+        clock_t end = clock();
+        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
+    } else if (operacion == "flip") {
+        clock_t begin = clock();
+        v.flip();
+        clock_t end = clock();
+        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
+    } else if (operacion == "clear") {
+        clock_t begin = clock();
+        v.clear();
+        clock_t end = clock();
+        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
+    } else {
+        clock_t begin = clock();
+        v.empty();
+        clock_t end = clock();
+        double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
     }
 
     clock_t end = clock();
@@ -127,22 +166,22 @@ vector<int> construir_vector(int size, string mode) {
     return res;
 }
 
-double tiempoEjecucion (string tipo,vector<int>v){
+double tiempoEjecucion(string tipo, vector<int> v) {
     using namespace std;
     clock_t begin = clock();
-    if(tipo == "binaria"){
+    if (tipo == "binaria") {
         //asegura que el valor no este en v y asi es el peor caso de busqueda binaria
-        int value = v[0]-1;
-        int i = busquedaBinaria(v,value);
-    }
-    else{
+        int value = v[0] - 1;
+        int i = busquedaBinaria(v, value);
+    } else {
         int value = 5;
-        int i = busquedaJumpSearch(v,value);
+        int i = busquedaJumpSearch(v, value);
     }
     clock_t end = clock();
     double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
     return elapsed_secs;
 }
+
 /* Los valores obtenidos fueron (tomando siempre misma entrada ascendente
     0.008 0.006 0.021 1.073
 
