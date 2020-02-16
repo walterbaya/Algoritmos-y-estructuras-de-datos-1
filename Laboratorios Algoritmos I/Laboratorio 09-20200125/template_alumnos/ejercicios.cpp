@@ -127,30 +127,46 @@ vector<int> construir_vector(int size, string mode) {
     return res;
 }
 
-//Ejercicio 2
-
-double tiempoEjecucion (int size, string mode,string tipo){
-    vector<int> v = construir_vector(size,mode);
+double tiempoEjecucion (string tipo,vector<int>v){
     using namespace std;
     clock_t begin = clock();
     if(tipo == "binaria"){
-        int i = busquedaBinaria(v,5);
+        //asegura que el valor no este en v y asi es el peor caso de busqueda binaria
+        int value = v[0]-1;
+        int i = busquedaBinaria(v,value);
     }
     else{
-        int i = busquedaJumpSearch(v,5);
+        int value = 5;
+        int i = busquedaJumpSearch(v,value);
     }
     clock_t end = clock();
     double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
     return elapsed_secs;
 }
-/* Los valores obtenidos fueron
- * Binaria asc y dsc
+/* Los valores obtenidos fueron (tomando siempre misma entrada ascendente
+    0.008 0.006 0.021 1.073
+
+    0.009 0.009 0.025 0.956
 
 
-a) 
-b)
+a)Se puede ver que los valores cambian, pero poco.Los valores siempre estan dentro de un rango
+ y son muy parecidos por lo que en cierta forma "se podria decir que no cambian". o no dependen mucho de las constantes
+ en general dependen mas del tamaño de la entrada como se ve al aumentar el tamaño de entrada aumenta el valor de tiempo y tambien
+ noto que esto se debe a las constantes en los casos porque las operaciones cuestan lo mismo se supone.
+ b)Segun la aproximacion de arriba sabemos que el algoritmos entra siempre en peor caso dado que se estara buscando un
+ elemento del vector que no esta en el mismo y por lo tanto tiene que hacer todas las iteraciones luego suponiendo que es algo de la
+ forma Clog2(n)
+ c100 = 0.0012       c100 = 0.0014
+ c1000= 0.0006       c1000 = 0.0009
+ c10000 = 0.0016     c10000 = 0.0016
+ c100000 = 0.064      c100000 = 0.057
 
- * */
+ De manera que asi podemos ver los valores que toma c pareceria ser para mi que c = 0.001 masomenos aunque los ultimos valores dan algo mayor
+ puede tener que ver un poco con que el algoritmo puede ser que en tiempo sea Clog(n)+C2log(n)+...+CN=Clog(n)+C
+ quizas la C final crece por alguna razon.
+
+Para realizar la estimacion de C para el algoritmos de jumpSearch
+ */
 
 int indicePico(vector<int> v) {
     int medio = v.size() / 2;
