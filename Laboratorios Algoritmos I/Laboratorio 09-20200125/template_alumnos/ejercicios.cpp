@@ -100,7 +100,7 @@ double calculadoraTiempos(vector<int> v, string operacion, int i, int value) {
 
     } else if (operacion == "push") {
         clock_t begin = clock();
-        v.push_back(1);
+        v.push_back(2);
         clock_t end = clock();
         double elapsed_secs = double(end - begin) / (CLOCKS_PER_SEC / 1000);
     } else if (operacion == "pop") {
@@ -225,7 +225,8 @@ Evaluacion del empty
  * Conclusiones
  *
  * Size: es constante O(1)
- * Push: pareceria ser log(n) es muy similar al comportamiento de busqueda binaria
+ * Push: pareceria ser dependiente del tamaño del vector los tiempos son mayores a los de jumpSearch o busqueda binaria.
+ * sin embargo se sabe que es O (1) salvo en algunos casos donde puede ser O(n)
  * Pop: es constante O(1)
  * [] : es constante O(1) no depende claramente del i
  * asignacion : es constante O(1) no depende claramente del i
