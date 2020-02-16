@@ -7,7 +7,7 @@ using namespace std;
 int busquedaBinaria(vector<int> v, int x);
 int busquedaJumpSearch(vector<int> v, int x);
 int buscar(vector<int> v, int x);
-double ejemplo_como_calcular_tiempos();
+double calculadoraTiempos(vector<int> v, string operacion, int i, int value);
 double tiempoEjecucion (string tipo,vector<int>v);
 vector<int> construir_vector(int size, string mode);
 int indicePico(vector<int> v);

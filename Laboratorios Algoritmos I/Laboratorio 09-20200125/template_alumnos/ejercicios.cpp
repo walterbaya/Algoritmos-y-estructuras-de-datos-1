@@ -88,7 +88,7 @@ int buscar(vector<int> v, int x) {
     //return busquedaJumpSearch(v, x);
 }
 
-double ejemplo_como_calcular_tiempos(vector<int> v, string operacion, int i, int value) {
+double calculadoraTiempos(vector<int> v, string operacion, int i, int value) {
     using namespace std;
     clock_t begin = clock();
 
