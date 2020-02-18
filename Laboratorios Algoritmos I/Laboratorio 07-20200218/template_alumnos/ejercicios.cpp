@@ -20,8 +20,14 @@ void trasponer(vector<vector<int> > &m) {
 }
 
 vector<vector<int> > multiplicar(vector<vector<int> > m1, vector<vector<int> > m2) {
-    //COMPLETAR
-    vector<vector<int> > res;
+    vector<vector<int> > res(m1.size(), vector<int>(m2[0].size()));
+    for (int i = 0; i < m1.size(); i++) {
+        for (int j = 0; j < m2[0].size(); j++) {
+            for (int k = 0; k < m2.size(); k++) {
+                res[i][j] = res[i][j] + m1[i][k] * m2[k][j];
+            }
+        }
+    }
     return res;
 }
 
