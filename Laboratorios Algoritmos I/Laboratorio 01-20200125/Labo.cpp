@@ -66,11 +66,21 @@ int fibonacciIterativoConFor(int n) {
     return res;
 }
 
+//Ejercicio 6 Recursivo
+int sumaImpares(int n){
+    if(n == 1){
+        return 0;
+    }
+    return (n % 2 != 0) ?  n + sumaImpares(n-1) : sumaImpares(n-1);
+}
+
+
 int main() {
     std::cout << "El resultado es: " << f(2, 3) << std::endl;
     std::cout << "Es primo?: " << esPrimo(17) << std::endl;
     std::cout << "Numero fibonacciRecursivo: " << fibonacciRecursivo(6) << std::endl;
     std::cout << "Numero fibonacciIterativo: " << fibonacciIterativo(6) << std::endl;
     std::cout << "Numero fibonacciIterativo con For: " << fibonacciIterativoConFor(6) << std::endl;
+    std::cout<< "Suma impares Recursivo: " << sumaImpares(7)<< std::endl;
     return 0;
 }
