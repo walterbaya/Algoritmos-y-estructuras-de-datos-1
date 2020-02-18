@@ -1,0 +1,3 @@
+C:/Users/WalterAriel/Desktop/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/WalterAriel/Desktop/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles/Laboratorio_01_20200125.dir
+C:/Users/WalterAriel/Desktop/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles/rebuild_cache.dir
