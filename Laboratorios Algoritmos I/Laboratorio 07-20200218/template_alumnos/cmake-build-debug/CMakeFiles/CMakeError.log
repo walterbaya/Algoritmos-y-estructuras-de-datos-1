@@ -1,0 +1,43 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_def2f/fast && /usr/bin/make -f CMakeFiles/cmTC_def2f.dir/build.make CMakeFiles/cmTC_def2f.dir/build
+make[1]: se entra en el directorio '/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_def2f.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_def2f.dir/src.c.o   -c "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/cmake-build-debug/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_def2f
+/home/walter/Documentos/Clion/clion-2019.3.4/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_def2f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_def2f.dir/src.c.o  -o cmTC_def2f 
+CMakeFiles/cmTC_def2f.dir/src.c.o: En la función `main':
+src.c:(.text+0x3c): referencia a `pthread_create' sin definir
+src.c:(.text+0x48): referencia a `pthread_detach' sin definir
+src.c:(.text+0x59): referencia a `pthread_join' sin definir
+src.c:(.text+0x6d): referencia a `pthread_atfork' sin definir
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_def2f.dir/build.make:86: fallo en las instrucciones para el objetivo 'cmTC_def2f'
+make[1]: *** [cmTC_def2f] Error 1
+make[1]: se sale del directorio '/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: fallo en las instrucciones para el objetivo 'cmTC_def2f/fast'
+make: *** [cmTC_def2f/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

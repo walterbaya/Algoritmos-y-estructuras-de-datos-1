@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/ejercicios.cpp
+ejercicios.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/ejercicios.h
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/ejercicios.h
+iostream
+-
+string
+-
+fstream
+-
+vector
+-
+stdlib.h
+-
+sstream
+-
+

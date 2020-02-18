@@ -1,0 +1,35 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9193e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9193e.dir/build.make CMakeFiles/cmTC_9193e.dir/build
+make[1]: Entering directory '/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9193e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9193e.dir/CheckSymbolExists.c.o   -c /home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9193e
+/home/sebastian/Documents/CLion-2018.1.3/clion-2018.1.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9193e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9193e.dir/CheckSymbolExists.c.o  -o cmTC_9193e 
+CMakeFiles/cmTC_9193e.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9193e.dir/build.make:97: recipe for target 'cmTC_9193e' failed
+make[1]: *** [cmTC_9193e] Error 1
+make[1]: Leaving directory '/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9193e/fast' failed
+make: *** [cmTC_9193e/fast] Error 2
+
+File /home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
