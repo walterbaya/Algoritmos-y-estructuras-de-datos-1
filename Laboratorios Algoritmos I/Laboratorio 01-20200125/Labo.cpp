@@ -26,11 +26,51 @@ bool esPrimo(int n) {
     }
     return res;
 }
+//Ejercicio 5 Recursivo
 
+int fibonacciRecursivo(int n) {
+    if (n == 0) {
+        return 0;
+    } else if (n == 1) {
+        return 1;
+    } else {
+        return fibonacciRecursivo(n - 1) + fibonacciRecursivo(n - 2);
+    }
+}
+
+//Ejercicio 5 iterativo con While
+int fibonacciIterativo(int n) {
+    int nMenos2 = 0;
+    int nMenos1 = 1;
+    int res = 0;
+    int i = 0;
+    while (i < n - 1) {
+        res = nMenos1 + nMenos2;
+        nMenos2 = nMenos1;
+        nMenos1 = res;
+        i++;
+    }
+    return res;
+}
+
+//Ejercicio 5 iterativo con for
+int fibonacciIterativoConFor(int n) {
+    int nMenos2 = 0;
+    int nMenos1 = 1;
+    int res = 0;
+    for (int i = 0; i < n - 1; i++) {
+        res = nMenos1 + nMenos2;
+        nMenos2 = nMenos1;
+        nMenos1 = res;
+    }
+    return res;
+}
 
 int main() {
     std::cout << "El resultado es: " << f(2, 3) << std::endl;
-    std::cout << "Es primo?: "<< esPrimo(17);
-
+    std::cout << "Es primo?: " << esPrimo(17) << std::endl;
+    std::cout << "Numero fibonacciRecursivo: " << fibonacciRecursivo(6) << std::endl;
+    std::cout << "Numero fibonacciIterativo: " << fibonacciIterativo(6) << std::endl;
+    std::cout << "Numero fibonacciIterativo con For: " << fibonacciIterativoConFor(6) << std::endl;
     return 0;
 }
