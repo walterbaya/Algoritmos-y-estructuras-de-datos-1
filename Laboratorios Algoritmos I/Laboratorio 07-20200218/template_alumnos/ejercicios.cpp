@@ -55,14 +55,46 @@ vector<vector<int> > promediar(vector<vector<int> > m) {
     return res;
 }
 
+
+
+
 int contarPicos(vector<vector<int> > m) {
-    //COMPLETAR
     return 1;
 }
 
+
+
+
+bool esTriangularInferior(vector<vector<int> > m) {
+    bool res = true;
+    for (int i = 0; i < m.size(); i++) {
+        bool aux = true;
+        for (int j = i + 1; j < m.size(); j++) {
+            if (m[i][j] != 0 && aux) {
+                res = false;
+                aux = false;
+            }
+        }
+    }
+    return res;
+}
+
+bool esTriangularSuperior(vector<vector<int> > m) {
+    bool res = true;
+    for (int i = 0; i < m.size(); i++) {
+        bool aux = true;
+        for (int j = 0; j < i; j++) {
+            if (m[i][j] != 0 && aux) {
+                res = false;
+                aux = false;
+            }
+        }
+    }
+    return res;
+}
+
 bool esTriangular(vector<vector<int> > m) {
-    //COMPLETAR
-    return true;
+    return esTriangularInferior(m)||esTriangularSuperior(m);
 }
 
 bool hayAmenaza(vector<vector<int> > m) {
