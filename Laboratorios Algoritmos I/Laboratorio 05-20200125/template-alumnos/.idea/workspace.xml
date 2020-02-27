@@ -41,6 +41,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="RunManager">
+    <configuration name="taller" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller" TARGET_NAME="taller" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller" RUN_TARGET_NAME="taller">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+>>>>>>> labo5
   <component name="SvnConfiguration">
     <configuration />
   </component>

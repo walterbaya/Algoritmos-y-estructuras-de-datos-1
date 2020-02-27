@@ -1,1 +1,8 @@
+<<<<<<< HEAD
 CMakeLists.txt not found in /home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos Select CMakeLists.txt file...
+=======
+/home/walter/Documentos/Clion/clion-2019.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/cmake-build-debug
+>>>>>>> labo5

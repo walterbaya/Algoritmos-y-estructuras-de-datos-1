@@ -1,0 +1,58 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/ejercicios.cpp
+../template-alumnos/ejercicios.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/ejercicios.h
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/ejercicios.h
+vector
+-
+utility
+-
+tuple
+-
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/main.cpp
+iostream
+-
+cassert
+-
+ejercicios.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/ejercicios.h
+test/cases.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/test/cases.h
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/test/cases.cpp
+iostream
+-
+cases.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/test/cases.h
+test.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/test/test.h
+../ejercicios.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/ejercicios.h
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/test/cases.h
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/test/test.h
+iostream
+-
+sstream
+-
+string
+-
+cassert
+-
+cmath
+-
+tuple
+-
+vector
+-
+

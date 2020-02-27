@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.obj"
-  "Laboratorio_01_20200125.exe"
-  "Laboratorio_01_20200125.exe.manifest"
+  "CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.o"
+  "Laboratorio_01_20200125"
   "Laboratorio_01_20200125.pdb"
-  "libLaboratorio_01_20200125.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
