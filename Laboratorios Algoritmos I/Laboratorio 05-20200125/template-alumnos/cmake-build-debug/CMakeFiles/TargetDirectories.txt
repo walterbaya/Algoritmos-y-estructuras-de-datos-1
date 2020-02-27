@@ -1,0 +1,3 @@
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/cmake-build-debug/CMakeFiles/taller.dir
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 05-20200125/template-alumnos/cmake-build-debug/CMakeFiles/edit_cache.dir
