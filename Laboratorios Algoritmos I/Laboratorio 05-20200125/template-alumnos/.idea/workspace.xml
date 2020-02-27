@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="taller" targetName="taller" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -18,6 +20,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -73,37 +76,37 @@
       <screen x="65" y="24" width="1295" height="744" />
     </state>
     <state x="500" y="141" key="FileChooserDialogImpl/65.24.1295.744@65.24.1295.744" timestamp="1582837909243" />
-    <state width="1249" height="193" key="GridCell.Tab.0.bottom" timestamp="1582837985440">
+    <state width="1249" height="193" key="GridCell.Tab.0.bottom" timestamp="1582840303115">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
-    <state width="1249" height="193" key="GridCell.Tab.0.bottom/65.24.1295.744@65.24.1295.744" timestamp="1582837985440" />
-    <state width="1249" height="193" key="GridCell.Tab.0.center" timestamp="1582837985434">
+    <state width="1249" height="193" key="GridCell.Tab.0.bottom/65.24.1295.744@65.24.1295.744" timestamp="1582840303115" />
+    <state width="1249" height="193" key="GridCell.Tab.0.center" timestamp="1582840303114">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
-    <state width="1249" height="193" key="GridCell.Tab.0.center/65.24.1295.744@65.24.1295.744" timestamp="1582837985434" />
-    <state width="1249" height="193" key="GridCell.Tab.0.left" timestamp="1582837985431">
+    <state width="1249" height="193" key="GridCell.Tab.0.center/65.24.1295.744@65.24.1295.744" timestamp="1582840303114" />
+    <state width="1249" height="193" key="GridCell.Tab.0.left" timestamp="1582840303113">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
-    <state width="1249" height="193" key="GridCell.Tab.0.left/65.24.1295.744@65.24.1295.744" timestamp="1582837985431" />
-    <state width="1249" height="193" key="GridCell.Tab.0.right" timestamp="1582837985439">
+    <state width="1249" height="193" key="GridCell.Tab.0.left/65.24.1295.744@65.24.1295.744" timestamp="1582840303113" />
+    <state width="1249" height="193" key="GridCell.Tab.0.right" timestamp="1582840303114">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
-    <state width="1249" height="193" key="GridCell.Tab.0.right/65.24.1295.744@65.24.1295.744" timestamp="1582837985439" />
-    <state width="1249" height="240" key="GridCell.Tab.1.bottom" timestamp="1582837245047">
+    <state width="1249" height="193" key="GridCell.Tab.0.right/65.24.1295.744@65.24.1295.744" timestamp="1582840303114" />
+    <state width="1249" height="240" key="GridCell.Tab.1.bottom" timestamp="1582840221518">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
-    <state width="1249" height="240" key="GridCell.Tab.1.bottom/65.24.1295.744@65.24.1295.744" timestamp="1582837245047" />
-    <state width="1249" height="240" key="GridCell.Tab.1.center" timestamp="1582837245043">
+    <state width="1249" height="240" key="GridCell.Tab.1.bottom/65.24.1295.744@65.24.1295.744" timestamp="1582840221518" />
+    <state width="1249" height="240" key="GridCell.Tab.1.center" timestamp="1582840221517">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
-    <state width="1249" height="240" key="GridCell.Tab.1.center/65.24.1295.744@65.24.1295.744" timestamp="1582837245043" />
-    <state width="1249" height="240" key="GridCell.Tab.1.left" timestamp="1582837245043">
+    <state width="1249" height="240" key="GridCell.Tab.1.center/65.24.1295.744@65.24.1295.744" timestamp="1582840221517" />
+    <state width="1249" height="240" key="GridCell.Tab.1.left" timestamp="1582840221517">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
-    <state width="1249" height="240" key="GridCell.Tab.1.left/65.24.1295.744@65.24.1295.744" timestamp="1582837245043" />
-    <state width="1249" height="240" key="GridCell.Tab.1.right" timestamp="1582837245044">
+    <state width="1249" height="240" key="GridCell.Tab.1.left/65.24.1295.744@65.24.1295.744" timestamp="1582840221517" />
+    <state width="1249" height="240" key="GridCell.Tab.1.right" timestamp="1582840221517">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
-    <state width="1249" height="240" key="GridCell.Tab.1.right/65.24.1295.744@65.24.1295.744" timestamp="1582837245044" />
+    <state width="1249" height="240" key="GridCell.Tab.1.right/65.24.1295.744@65.24.1295.744" timestamp="1582840221517" />
   </component>
 </project>
