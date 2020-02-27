@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/ejercicios.cpp
+iostream
+-
+ejercicios.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/ejercicios.h
+math.h
+-
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/ejercicios.h
+vector
+-
+string
+-
+iostream
+-
+fstream
+-
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/test/cases.cpp
+iostream
+-
+cases.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/test/cases.h
+test.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/test/test.h
+../ejercicios.h
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/ejercicios.h
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/test/cases.h
+
+/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 04-20200125/labo-debugging/taller/test/test.h
+iostream
+-
+sstream
+-
+string
+-
+cassert
+-
+cmath
+-
+
