@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="taller" targetName="taller" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0f36277-64f0-4aae-bd1e-161d2bee099e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Y7ZY3zN3oi1p04oloP1WwJWJ9F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="taller" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller" TARGET_NAME="taller" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller" RUN_TARGET_NAME="taller">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0f36277-64f0-4aae-bd1e-161d2bee099e" name="Default Changelist" comment="" />
+      <created>1582295636048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582295636048</updated>
+      <workItem from="1582295638651" duration="1699000" />
+      <workItem from="1582298978702" duration="4175000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1249" height="192" key="GridCell.Tab.0.bottom" timestamp="1582304638477">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.bottom/65.24.1295.744@65.24.1295.744" timestamp="1582304638477" />
+    <state width="1249" height="192" key="GridCell.Tab.0.center" timestamp="1582304638476">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.center/65.24.1295.744@65.24.1295.744" timestamp="1582304638476" />
+    <state width="1249" height="192" key="GridCell.Tab.0.left" timestamp="1582304638476">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.left/65.24.1295.744@65.24.1295.744" timestamp="1582304638476" />
+    <state width="1249" height="192" key="GridCell.Tab.0.right" timestamp="1582304638477">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="192" key="GridCell.Tab.0.right/65.24.1295.744@65.24.1295.744" timestamp="1582304638477" />
+    <state width="1249" height="264" key="GridCell.Tab.1.bottom" timestamp="1582304633149">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="264" key="GridCell.Tab.1.bottom/65.24.1295.744@65.24.1295.744" timestamp="1582304633149" />
+    <state width="1249" height="264" key="GridCell.Tab.1.center" timestamp="1582304633070">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="264" key="GridCell.Tab.1.center/65.24.1295.744@65.24.1295.744" timestamp="1582304633070" />
+    <state width="1249" height="264" key="GridCell.Tab.1.left" timestamp="1582304633070">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="264" key="GridCell.Tab.1.left/65.24.1295.744@65.24.1295.744" timestamp="1582304633070" />
+    <state width="1249" height="264" key="GridCell.Tab.1.right" timestamp="1582304633070">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="264" key="GridCell.Tab.1.right/65.24.1295.744@65.24.1295.744" timestamp="1582304633070" />
+    <state x="382" y="220" key="com.intellij.ide.util.TipDialog" timestamp="1582836067807">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state x="382" y="220" key="com.intellij.ide.util.TipDialog/65.24.1295.744@65.24.1295.744" timestamp="1582836067807" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ejercicios.cpp</url>
+          <line>97</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ejercicios.cpp</url>
+          <line>81</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ejercicios.cpp</url>
+          <line>85</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

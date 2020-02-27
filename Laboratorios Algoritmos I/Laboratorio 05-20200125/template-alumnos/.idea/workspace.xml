@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+<<<<<<< HEAD
     <generated>
       <config projectName="taller" targetName="taller" />
     </generated>
+=======
+    <generated />
+>>>>>>> labo4
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -20,7 +24,10 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+<<<<<<< HEAD
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+=======
+>>>>>>> labo4
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -45,6 +52,7 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   <component name="RunManager">
     <configuration name="taller" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="taller" TARGET_NAME="taller" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="taller" RUN_TARGET_NAME="taller">
@@ -54,6 +62,8 @@
     </configuration>
   </component>
 >>>>>>> labo5
+=======
+>>>>>>> labo4
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -64,7 +74,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582836762758</updated>
+<<<<<<< HEAD
       <workItem from="1582836764865" duration="1080000" />
+=======
+      <workItem from="1582836764865" duration="1301000" />
+>>>>>>> labo4
     </task>
     <servers />
   </component>
@@ -76,6 +90,7 @@
       <screen x="65" y="24" width="1295" height="744" />
     </state>
     <state x="500" y="141" key="FileChooserDialogImpl/65.24.1295.744@65.24.1295.744" timestamp="1582837909243" />
+<<<<<<< HEAD
     <state width="1249" height="193" key="GridCell.Tab.0.bottom" timestamp="1582840303115">
       <screen x="65" y="24" width="1295" height="744" />
     </state>
@@ -108,5 +123,39 @@
       <screen x="65" y="24" width="1295" height="744" />
     </state>
     <state width="1249" height="240" key="GridCell.Tab.1.right/65.24.1295.744@65.24.1295.744" timestamp="1582840221517" />
+=======
+    <state width="1249" height="193" key="GridCell.Tab.0.bottom" timestamp="1582838106026">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="193" key="GridCell.Tab.0.bottom/65.24.1295.744@65.24.1295.744" timestamp="1582838106026" />
+    <state width="1249" height="193" key="GridCell.Tab.0.center" timestamp="1582838106025">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="193" key="GridCell.Tab.0.center/65.24.1295.744@65.24.1295.744" timestamp="1582838106025" />
+    <state width="1249" height="193" key="GridCell.Tab.0.left" timestamp="1582838106024">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="193" key="GridCell.Tab.0.left/65.24.1295.744@65.24.1295.744" timestamp="1582838106024" />
+    <state width="1249" height="193" key="GridCell.Tab.0.right" timestamp="1582838106025">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="193" key="GridCell.Tab.0.right/65.24.1295.744@65.24.1295.744" timestamp="1582838106025" />
+    <state width="1249" height="240" key="GridCell.Tab.1.bottom" timestamp="1582837245047">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="240" key="GridCell.Tab.1.bottom/65.24.1295.744@65.24.1295.744" timestamp="1582837245047" />
+    <state width="1249" height="240" key="GridCell.Tab.1.center" timestamp="1582837245043">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="240" key="GridCell.Tab.1.center/65.24.1295.744@65.24.1295.744" timestamp="1582837245043" />
+    <state width="1249" height="240" key="GridCell.Tab.1.left" timestamp="1582837245043">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="240" key="GridCell.Tab.1.left/65.24.1295.744@65.24.1295.744" timestamp="1582837245043" />
+    <state width="1249" height="240" key="GridCell.Tab.1.right" timestamp="1582837245044">
+      <screen x="65" y="24" width="1295" height="744" />
+    </state>
+    <state width="1249" height="240" key="GridCell.Tab.1.right/65.24.1295.744@65.24.1295.744" timestamp="1582837245044" />
+>>>>>>> labo4
   </component>
 </project>
