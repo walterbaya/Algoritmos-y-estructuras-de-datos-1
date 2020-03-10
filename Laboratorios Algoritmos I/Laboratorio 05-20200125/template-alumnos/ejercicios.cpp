@@ -17,18 +17,46 @@ bool existePico(vector<int> v) {
 //en ese caso se cumple el invariante.
 
 // Ejercicio 2
+//a y b son variables de control como i j
+
+//PRE: n>0 && m > 0
 int mcd(int m, int n) {
-    return 0;
+    int a = n;
+    int b = m;
+    int res = n;
+    //PC : a == n && b == m && res == n
+    while (a != b) {
+        if (a < b) {
+            b = b - a;
+        } else {
+            a = a - b;
+        }
+    }
+    //QC: a == mcd(m,n)
+    res = a;
+    return res;
 }
+//QC: res == mcd(m,n)
 
 // Ejercicio 3
 int indiceMinSubsec(vector<int> v, int l, int r) {
-    return 0;
+    int res = r;
+    for (int i = r; i >= l; i--) {
+        if (v[res] > v[i]) {
+            res = i;
+        }
+    }
+    return res;
 }
 
 // Ejercicio 4
+//Esto es el selection sort
 void ordenar1(vector<int> &v) {
-    return;
+    for (int i = 0; i < v.size(); i++) {
+        int temp = v[i];
+        v[i] = v[indiceMinSubsec(v, i, v.size()-1)];
+        v[indiceMinSubsec(v, i, v.size()-1)] = temp;
+    }
 }
 
 // Ejercicio 5
