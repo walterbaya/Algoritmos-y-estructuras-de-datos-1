@@ -61,7 +61,7 @@ bool esPico(vector<vector<int>> m, int i, int j) {
     for (int k = i - 1; k <= i + 1 && res; k++) {
         for (int l = j - 1; l <= j + 1 && res; l++) {
             if (k >= 0 && l >= 0 && k < m.size() && l < m[0].size()) {
-                res = m[k][l] < m[i][j] || (i==k && j == l);
+                res = m[k][l] < m[i][j] || (i == k && j == l);
             }
         }
     }
@@ -118,7 +118,20 @@ bool hayAmenaza(vector<vector<int> > m) {
     return true;
 }
 
+int diferenciaAbsoluta(int a, int b) {
+    int res = b - a;
+    if (a > b) {
+        res = a - b;
+    }
+    return  res;
+}
+
 int diferenciaDiagonales(vector<vector<int> > m) {
-    //COMPLETAR
-    return 0;
+    int sumaDiagonal1 = 0;
+    int sumaDiagonal2 = 0;
+    for (int i = 0; i < m.size(); i++) {
+        sumaDiagonal1 = m[i][i] + sumaDiagonal1;
+        sumaDiagonal2 = m[i][m.size() - 1 - i] + sumaDiagonal2;
+    }
+    return diferenciaAbsoluta(sumaDiagonal2, sumaDiagonal1);
 }
