@@ -56,13 +56,29 @@ vector<vector<int> > promediar(vector<vector<int> > m) {
 }
 
 
-
-
-int contarPicos(vector<vector<int> > m) {
-    return 1;
+bool esPico(vector<vector<int>> m, int i, int j) {
+    bool res = true;
+    for (int k = i - 1; k <= i + 1 && res; k++) {
+        for (int l = j - 1; l <= j + 1 && res; l++) {
+            if (k >= 0 && l >= 0 && k < m.size() && l < m[0].size()) {
+                res = m[k][l] < m[i][j] || (i==k && j == l);
+            }
+        }
+    }
+    return res;
 }
 
-
+int contarPicos(vector<vector<int> > m) {
+    int res = 0;
+    for (int i = 0; i < m.size(); i++) {
+        for (int j = 0; j < m[0].size(); j++) {
+            if (esPico(m, i, j)) {
+                res++;
+            }
+        }
+    }
+    return res;
+}
 
 
 bool esTriangularInferior(vector<vector<int> > m) {
@@ -94,7 +110,7 @@ bool esTriangularSuperior(vector<vector<int> > m) {
 }
 
 bool esTriangular(vector<vector<int> > m) {
-    return esTriangularInferior(m)||esTriangularSuperior(m);
+    return esTriangularInferior(m) || esTriangularSuperior(m);
 }
 
 bool hayAmenaza(vector<vector<int> > m) {
