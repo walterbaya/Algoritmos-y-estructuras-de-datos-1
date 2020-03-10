@@ -159,3 +159,5 @@ int diferenciaDiagonales(vector<vector<int> > m) {
     }
     return diferenciaAbsoluta(sumaDiagonal2, sumaDiagonal1);
 }
+
+//Los ejercicios de ta te ti fueron subidos al tateti que se podra encontrar proximamente en mi git!! con el juego mismo.
