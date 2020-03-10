@@ -113,9 +113,33 @@ bool esTriangular(vector<vector<int> > m) {
     return esTriangularInferior(m) || esTriangularSuperior(m);
 }
 
+//Usare abs provisto por las libreria para no implementarlo ya que fue implementado anteriormente en otra clase.
+bool seAmenazan(int i1, int j1, int i2, int j2) {
+    return (i1 != i2 || j1 != j2) && (i1 == i2 || j1 == j2 || abs(i1 - i2) == abs(j1 - j2));
+}
+
+bool amenazaAlguna(vector<vector<int> > m, int i1, int j1) {
+    bool res = false;
+    for (int i2 = 0; i2 < m.size() && !res; i2++) {
+        for (int j2 = 0; j2 < m[0].size() && !res; j2++) {
+            res = seAmenazan(i1, j1, i2, j2) && m[i2][j2] == 1;
+        }
+    }
+    return res;
+}
+
+bool existeAmenaza(vector<vector<int> > m) {
+    bool res = false;
+    for (int i1 = 0; i1 < m.size() && !res; i1++) {
+        for (int j1 = 0; j1 < m[0].size() && !res; j1++) {
+            res = amenazaAlguna(m, i1, j1) && m[i1][j1] == 1;
+        }
+    }
+    return res;
+}
+
 bool hayAmenaza(vector<vector<int> > m) {
-    //COMPLETAR
-    return true;
+    return existeAmenaza(m);
 }
 
 int diferenciaAbsoluta(int a, int b) {
@@ -123,7 +147,7 @@ int diferenciaAbsoluta(int a, int b) {
     if (a > b) {
         res = a - b;
     }
-    return  res;
+    return res;
 }
 
 int diferenciaDiagonales(vector<vector<int> > m) {
