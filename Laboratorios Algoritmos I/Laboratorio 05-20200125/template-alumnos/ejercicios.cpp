@@ -54,8 +54,8 @@ int indiceMinSubsec(vector<int> v, int l, int r) {
 void ordenar1(vector<int> &v) {
     for (int i = 0; i < v.size(); i++) {
         int temp = v[i];
-        v[i] = v[indiceMinSubsec(v, i, v.size()-1)];
-        v[indiceMinSubsec(v, i, v.size()-1)] = temp;
+        v[i] = v[indiceMinSubsec(v, i, v.size() - 1)];
+        v[indiceMinSubsec(v, i, v.size() - 1)] = temp;
     }
 }
 
@@ -90,5 +90,11 @@ void ordenar2(vector<int> &v) {
 
 // Ejercicio 6
 tuple<int, int> division(int n, int d) {
-    return make_tuple(0, 0);
+    int q = 0;
+    int r = n;
+    while (r >= d) {
+        q++;
+        r -= d;
+    }
+    return make_tuple(q, r);
 }
