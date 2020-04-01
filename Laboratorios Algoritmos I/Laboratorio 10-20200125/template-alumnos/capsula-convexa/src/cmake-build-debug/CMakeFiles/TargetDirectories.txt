@@ -1,0 +1,3 @@
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 10-20200125/template-alumnos/capsula-convexa/src/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 10-20200125/template-alumnos/capsula-convexa/src/cmake-build-debug/CMakeFiles/capsula-convexa.dir
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 10-20200125/template-alumnos/capsula-convexa/src/cmake-build-debug/CMakeFiles/edit_cache.dir
