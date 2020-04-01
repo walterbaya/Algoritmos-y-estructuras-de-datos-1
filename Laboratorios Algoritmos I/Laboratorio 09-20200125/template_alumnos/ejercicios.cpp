@@ -8,6 +8,8 @@
 
 using namespace std;
 
+
+//Ejercicio 1
 int busquedaBinaria(vector<int> v, int x) {
     int med = v.size() / 2;
     int izq = 0;
@@ -88,6 +90,7 @@ int buscar(vector<int> v, int x) {
     //return busquedaJumpSearch(v, x);
 }
 
+//Ejercicio 2
 double calculadoraTiempos(vector<int> v, string operacion, int i, int value) {
     using namespace std;
     clock_t begin = clock();
@@ -202,6 +205,7 @@ a)Se puede ver que los valores cambian, pero poco.Los valores siempre estan dent
 Para realizar la estimacion de C para el algoritmos de jumpSearch
  */
 
+//Ejercicio 3
 /*
 Estimaciones de busqueda binaria
 0.008 0.006 0.02 0.843
@@ -234,6 +238,7 @@ Evaluacion del empty
  * Empty : es constante O(1)
  *
  * */
+//Ejercicio 4
 int indicePico(vector<int> v) {
     int medio = v.size() / 2;
     int primero = 0;
@@ -266,6 +271,7 @@ int indicePico(vector<int> v) {
     return res;
 }
 
+//Ejercicio 5
 int puntoFijo(vector<int> v) {
     int med = v.size() / 2;
     int izq = 0;
@@ -298,6 +304,7 @@ int puntoFijo(vector<int> v) {
     return res;
 }
 
+//Ejercicio 6
 int encontrarRotado(vector<int> v, int x) {
     int medio = v.size() / 2;
     int ultimo = v.size() - 1;
@@ -335,6 +342,7 @@ int encontrarRotado(vector<int> v, int x) {
     return res;
 }
 
+//Ejercicio 7
 int menorMasGrande(vector<int> v, int x) {
     int izq = 0;
     int der = v.size() - 1;
@@ -357,6 +365,7 @@ int menorMasGrande(vector<int> v, int x) {
     return res;
 }
 
+//Ejercicio 8
 //PRE: Seguro hay uno que devolver.
 int posicionDelMasCercanoEnModulo(vector<int> v, int x) {
     int medio = v.size() / 2;
