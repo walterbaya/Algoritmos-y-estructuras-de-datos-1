@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/bin-package.dir/main.cpp.o  -o ../bin-package 
