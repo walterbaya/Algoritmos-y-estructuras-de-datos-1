@@ -491,6 +491,33 @@ test/Ej8_diferenciaDiagonalesTest.cpp.s:
 	$(MAKE) -f CMakeFiles/Labo07.dir/build.make CMakeFiles/Labo07.dir/test/Ej8_diferenciaDiagonalesTest.cpp.s
 .PHONY : test/Ej8_diferenciaDiagonalesTest.cpp.s
 
+test/Ej9_WillieElRobot.o: test/Ej9_WillieElRobot.cpp.o
+
+.PHONY : test/Ej9_WillieElRobot.o
+
+# target to build an object file
+test/Ej9_WillieElRobot.cpp.o:
+	$(MAKE) -f CMakeFiles/Labo07.dir/build.make CMakeFiles/Labo07.dir/test/Ej9_WillieElRobot.cpp.o
+.PHONY : test/Ej9_WillieElRobot.cpp.o
+
+test/Ej9_WillieElRobot.i: test/Ej9_WillieElRobot.cpp.i
+
+.PHONY : test/Ej9_WillieElRobot.i
+
+# target to preprocess a source file
+test/Ej9_WillieElRobot.cpp.i:
+	$(MAKE) -f CMakeFiles/Labo07.dir/build.make CMakeFiles/Labo07.dir/test/Ej9_WillieElRobot.cpp.i
+.PHONY : test/Ej9_WillieElRobot.cpp.i
+
+test/Ej9_WillieElRobot.s: test/Ej9_WillieElRobot.cpp.s
+
+.PHONY : test/Ej9_WillieElRobot.s
+
+# target to generate assembly for a file
+test/Ej9_WillieElRobot.cpp.s:
+	$(MAKE) -f CMakeFiles/Labo07.dir/build.make CMakeFiles/Labo07.dir/test/Ej9_WillieElRobot.cpp.s
+.PHONY : test/Ej9_WillieElRobot.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -538,6 +565,9 @@ help:
 	@echo "... test/Ej8_diferenciaDiagonalesTest.o"
 	@echo "... test/Ej8_diferenciaDiagonalesTest.i"
 	@echo "... test/Ej8_diferenciaDiagonalesTest.s"
+	@echo "... test/Ej9_WillieElRobot.o"
+	@echo "... test/Ej9_WillieElRobot.i"
+	@echo "... test/Ej9_WillieElRobot.s"
 .PHONY : help
 
 

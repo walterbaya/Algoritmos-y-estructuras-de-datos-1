@@ -154,6 +154,7 @@ int combinatorio(int n, int k) {
 //Parece ser bastante mas complicado hacerlo en forma iterativa.
 //Ejercicio 8 iterativo con while
 int combinatorioW(int n, int k) {
+
 }
 
 

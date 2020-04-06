@@ -379,6 +379,9 @@
 		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/test/Ej8_diferenciaDiagonalesTest.cpp">
 			<Option target="Labo07"/>
 		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/test/Ej9_WillieElRobot.cpp">
+			<Option target="Labo07"/>
+		</Unit>
 		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

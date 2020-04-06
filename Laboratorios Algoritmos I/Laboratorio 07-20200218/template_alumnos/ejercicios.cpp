@@ -159,3 +159,22 @@ int diferenciaDiagonales(vector<vector<int> > m) {
     }
     return diferenciaAbsoluta(sumaDiagonal2, sumaDiagonal1);
 }
+
+int nroCaminos(vector<vector<int> > m, int i, int j) {
+    if (j == 0 || i == 0) {
+        return 1;
+    } else {
+        return nroCaminos(m, i, j - 1) + nroCaminos(m, i - 1, j);
+    }
+}
+
+/*
+ * 1 2 3
+ * 1 2 3
+ * 1 2 3
+ *
+ * */
+//PRE se supone que no va a ser vacia porque el robot no podria estar en ningun lugar.
+int williElRobot(vector<vector<int> > m) {
+    return nroCaminos(m, m.size() - 1, m[0].size() - 1);
+}

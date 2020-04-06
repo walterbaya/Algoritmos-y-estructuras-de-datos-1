@@ -284,9 +284,23 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/lib/googletest-master/googletest/src/gtest_main.cc
-stdio.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/ejercicios.h
+iostream
 -
+string
+-
+fstream
+-
+vector
+-
+stdlib.h
+-
+sstream
+-
+
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/test/Ej9_WillieElRobot.cpp
+../ejercicios.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/ejercicios.h
 gtest/gtest.h
-/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/lib/googletest-master/googletest/src/gtest/gtest.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 07-20200218/template_alumnos/test/gtest/gtest.h
 
