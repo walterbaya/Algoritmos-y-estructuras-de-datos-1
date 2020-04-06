@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/walter/Documentos/Clion/clion-2019.3.4/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/walter/Descargas/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/walter/Documentos/Clion/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/walter/Descargas/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125"
+CMAKE_SOURCE_DIR = "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Laboratorio_01_20200125.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Laboratorio_01_20200125.dir/flags.make
 
 CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.o: CMakeFiles/Laboratorio_01_20200125.dir/flags.make
 CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.o: ../Labo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.o -c "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/Labo.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.o -c "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/Labo.cpp"
 
 CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/Labo.cpp" > CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/Labo.cpp" > CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.i
 
 CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/Labo.cpp" -o CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/Labo.cpp" -o CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.s
 
 # Object files for target Laboratorio_01_20200125
 Laboratorio_01_20200125_OBJECTS = \
@@ -80,7 +80,7 @@ Laboratorio_01_20200125_EXTERNAL_OBJECTS =
 Laboratorio_01_20200125: CMakeFiles/Laboratorio_01_20200125.dir/Labo.cpp.o
 Laboratorio_01_20200125: CMakeFiles/Laboratorio_01_20200125.dir/build.make
 Laboratorio_01_20200125: CMakeFiles/Laboratorio_01_20200125.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Laboratorio_01_20200125"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Laboratorio_01_20200125"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Laboratorio_01_20200125.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -93,6 +93,6 @@ CMakeFiles/Laboratorio_01_20200125.dir/clean:
 .PHONY : CMakeFiles/Laboratorio_01_20200125.dir/clean
 
 CMakeFiles/Laboratorio_01_20200125.dir/depend:
-	cd "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125" "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125" "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug" "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug" "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles/Laboratorio_01_20200125.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/CMakeFiles/Laboratorio_01_20200125.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Laboratorio_01_20200125.dir/depend
 
