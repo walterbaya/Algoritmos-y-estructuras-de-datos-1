@@ -152,14 +152,6 @@ int combinatorio(int n, int k) {
 }
 
 //Parece ser bastante mas complicado hacerlo en forma iterativa.
-//Ejercicio 8 iterativo con while
-int combinatorioW(int n, int k) {
-
-}
-
-
-//Ejercicio 8 iterativo con for
-
 
 int main() {
     cout << "El resultado es: " << f(2, 3) << endl;
