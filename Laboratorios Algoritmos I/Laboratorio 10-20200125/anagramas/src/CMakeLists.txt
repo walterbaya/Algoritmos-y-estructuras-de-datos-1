@@ -3,6 +3,6 @@ project(capsula-convexa)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(capsula-convexa main.cpp)
+add_executable(anagramas anagramas.cpp)
 
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_CURRENT_SOURCE_DIR})
