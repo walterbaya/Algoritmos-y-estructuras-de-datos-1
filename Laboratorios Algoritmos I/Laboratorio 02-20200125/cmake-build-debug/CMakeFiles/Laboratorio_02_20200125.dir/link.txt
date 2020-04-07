@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Laboratorio_02_20200125.dir/main.cpp.o CMakeFiles/Laboratorio_02_20200125.dir/Ejercicios.cpp.o  -o Laboratorio_02_20200125 
