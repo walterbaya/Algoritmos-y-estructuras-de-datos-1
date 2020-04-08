@@ -12,3 +12,6 @@ bool esPrimo(int n) {
 		return true;
 	}
 }
+//Esta implementacion es correcta.
+//Se podria demostrar utilizando WP que es la forma que usamos en este curso para demostrar la correctitud
+//El hecho de que corra todos los test no significa que el programa es correcto.

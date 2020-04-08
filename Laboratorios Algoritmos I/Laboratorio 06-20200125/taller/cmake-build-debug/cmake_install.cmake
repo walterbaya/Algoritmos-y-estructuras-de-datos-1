@@ -1,4 +1,4 @@
-# Install script for directory: /home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller
+# Install script for directory: /home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
+  include("/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

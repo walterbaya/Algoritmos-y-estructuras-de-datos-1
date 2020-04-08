@@ -4,9 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/ej1/Test/esPrimoTest.cpp" "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/CMakeFiles/Labo06.dir/ej1/Test/esPrimoTest.cpp.o"
-  "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/ej1/esPrimo.cpp" "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/CMakeFiles/Labo06.dir/ej1/esPrimo.cpp.o"
-  "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/main.cpp" "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/CMakeFiles/Labo06.dir/main.cpp.o"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej1/Test/esPrimoTest.cpp" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/CMakeFiles/Labo06.dir/ej1/Test/esPrimoTest.cpp.o"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej1/Test/puntajeTEST.cpp" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/CMakeFiles/Labo06.dir/ej1/Test/puntajeTEST.cpp.o"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej1/esPrimo.cpp" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/CMakeFiles/Labo06.dir/ej1/esPrimo.cpp.o"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej1/puntaje.cpp" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/CMakeFiles/Labo06.dir/ej1/puntaje.cpp.o"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej2/Test/llenarTaxisTEST.cpp" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/CMakeFiles/Labo06.dir/ej2/Test/llenarTaxisTEST.cpp.o"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej2/llenarTaxis.cpp" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/CMakeFiles/Labo06.dir/ej2/llenarTaxis.cpp.o"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/main.cpp" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/CMakeFiles/Labo06.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +21,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

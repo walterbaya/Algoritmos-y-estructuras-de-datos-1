@@ -1,4 +1,4 @@
-# Install script for directory: /home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/lib/googletest-master
+# Install script for directory: /home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/lib/googletest-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
+  include("/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/lib/googletest-master/googlemock/cmake_install.cmake")
 
 endif()
 

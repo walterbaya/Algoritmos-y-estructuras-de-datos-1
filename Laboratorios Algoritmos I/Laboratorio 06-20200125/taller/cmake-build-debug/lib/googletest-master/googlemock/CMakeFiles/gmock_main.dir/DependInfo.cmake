@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/lib/googletest-master/googlemock/src/gmock_main.cc" "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/lib/googletest-master/googlemock/src/gmock_main.cc" "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../lib/googletest-master/googlemock/include"
   "../lib/googletest-master/googlemock"
-  "../lib/googletest-master/googletest/include"
   "../lib/googletest-master/googletest"
+  "../lib/googletest-master/googlemock/include"
+  "../lib/googletest-master/googletest/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug/lib/googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
