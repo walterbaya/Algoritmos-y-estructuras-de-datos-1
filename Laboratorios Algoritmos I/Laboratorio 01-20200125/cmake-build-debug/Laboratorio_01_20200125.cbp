@@ -8,86 +8,86 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
+				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
+				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Laboratorio_01_20200125">
-				<Option output="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/Laboratorio_01_20200125" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
+				<Option output="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/Laboratorio_01_20200125" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 Laboratorio_01_20200125"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 Laboratorio_01_20200125"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Laboratorio_01_20200125/fast">
-				<Option output="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/Laboratorio_01_20200125" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
+				<Option output="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/Laboratorio_01_20200125" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 Laboratorio_01_20200125/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 Laboratorio_01_20200125/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
+				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 01-20200125/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/Labo.cpp">
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/Labo.cpp">
 			<Option target="Laboratorio_01_20200125"/>
 		</Unit>
-		<Unit filename="/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/CMakeLists.txt">
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

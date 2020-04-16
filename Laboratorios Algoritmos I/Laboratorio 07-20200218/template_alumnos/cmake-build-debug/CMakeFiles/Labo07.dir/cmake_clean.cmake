@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Labo07.dir/test/Ej6_esTriangularTest.cpp.o"
   "CMakeFiles/Labo07.dir/test/Ej7_hayAmenazaTest.cpp.o"
   "CMakeFiles/Labo07.dir/test/Ej8_diferenciaDiagonalesTest.cpp.o"
+  "CMakeFiles/Labo07.dir/test/Ej9_WillieElRobot.cpp.o"
   "Labo07"
   "Labo07.pdb"
 )

@@ -151,12 +151,7 @@ int combinatorio(int n, int k) {
     }
 }
 
-
-//Ejercicio 8 iterativo con while
-
-
-//Ejercicio 8 iterativo con for
-
+//Parece ser bastante mas complicado hacerlo en forma iterativa.
 
 int main() {
     cout << "El resultado es: " << f(2, 3) << endl;
@@ -171,6 +166,7 @@ int main() {
     cout << "suma divisores iterativo con while: " << sumaDivisoresW(9) << endl;
     cout << "suma divisores iterativo con for: " << sumaDivisoresF(9) << endl;
     cout << "Combinatorio recursivo: " << combinatorio(3, 1) << endl;
+    cout << "Combinatorio recursivo: " << combinatorioW(3, 1) << endl;
     //cout << "suma divisores iterativo con while: " << sumaDivisoresW(9) << endl;
     //cout << "suma divisores iterativo con for: " << sumaDivisoresF(9) << endl;
 

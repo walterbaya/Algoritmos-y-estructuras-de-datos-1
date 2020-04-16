@@ -1,4 +1,4 @@
-# Install script for directory: /home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125
+# Install script for directory: /home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/walter/Escritorio/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 01-20200125/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

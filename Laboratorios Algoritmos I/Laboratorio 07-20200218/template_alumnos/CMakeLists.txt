@@ -16,7 +16,7 @@ set(SOURCE_FILES main.cpp
         test/Ej5_contarPicosTest.cpp
         test/Ej6_esTriangularTest.cpp
         test/Ej7_hayAmenazaTest.cpp
-        test/Ej8_diferenciaDiagonalesTest.cpp)
+        test/Ej8_diferenciaDiagonalesTest.cpp test/Ej9_WillieElRobot.cpp)
 
 add_executable(Labo07 ${SOURCE_FILES})
 

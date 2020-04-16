@@ -284,21 +284,13 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/ej1/Test/esPrimoTest.cpp
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej2/Test/llenarTaxisTEST.cpp
+../llenarTaxis.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej2/llenarTaxis.h
 gtest/gtest.h
-/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/ej1/Test/gtest/gtest.h
-../esPrimo.h
-/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/ej1/esPrimo.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej2/Test/gtest/gtest.h
 
-/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/ej1/esPrimo.cpp
-esPrimo.h
-/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/ej1/esPrimo.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej2/llenarTaxis.cpp
 
-/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/ej1/esPrimo.h
-
-/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/main.cpp
-iostream
--
-gtest/gtest.h
-/home/sebastian/git/algo1-doc/laboratorios/tm/labo06/taller/gtest/gtest.h
+/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej2/llenarTaxis.h
 
