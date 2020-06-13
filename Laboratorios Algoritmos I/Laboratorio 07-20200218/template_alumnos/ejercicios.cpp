@@ -160,6 +160,9 @@ int diferenciaDiagonales(vector<vector<int> > m) {
     return diferenciaAbsoluta(sumaDiagonal2, sumaDiagonal1);
 }
 
+
+//Los ejercicios de ta te ti fueron subidos al tateti que se podra encontrar proximamente en mi git!! con el juego mismo.
+=======
 int nroCaminos(vector<vector<int> > m, int i, int j) {
     if (j == 0 || i == 0) {
         return 1;
@@ -178,3 +181,4 @@ int nroCaminos(vector<vector<int> > m, int i, int j) {
 int williElRobot(vector<vector<int> > m) {
     return nroCaminos(m, m.size() - 1, m[0].size() - 1);
 }
+
