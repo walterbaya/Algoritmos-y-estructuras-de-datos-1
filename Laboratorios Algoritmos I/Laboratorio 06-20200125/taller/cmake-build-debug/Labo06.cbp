@@ -27,11 +27,11 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="install/local">
 				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -85,6 +85,16 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug"/>
 				<Option type="4"/>
@@ -95,31 +105,21 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="list_install_components">
-				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/local">
-				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="install">
 				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/walter/Escritorio/Algoritmos\ I/Algoritmos-y-estructuras-de-datos-1/Laboratorios\ Algoritmos\ I/Laboratorio\ 06-20200125/taller/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -359,6 +359,33 @@
 			<Option target="Labo06"/>
 		</Unit>
 		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej2/llenarTaxis.h">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/Test/baldosasDelPisoTEST.cpp">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/Test/contandoDragonesTEST.cpp">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/Test/electoresTEST.cpp">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/baldosasDelPiso.cpp">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/baldosasDelPiso.h">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/contandoDragones.cpp">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/contandoDragones.h">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/electores.cpp">
+			<Option target="Labo06"/>
+		</Unit>
+		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/ej3/electores.h">
 			<Option target="Labo06"/>
 		</Unit>
 		<Unit filename="/home/walter/Escritorio/Algoritmos I/Algoritmos-y-estructuras-de-datos-1/Laboratorios Algoritmos I/Laboratorio 06-20200125/taller/lib/googletest-master/googlemock/src/gmock-all.cc">

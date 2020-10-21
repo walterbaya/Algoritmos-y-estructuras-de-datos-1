@@ -14,6 +14,12 @@ set(SOURCE_FILES main.cpp
         ej1/Test/puntajeTEST.cpp
         ej2/llenarTaxis.cpp
         ej2/Test/llenarTaxisTEST.cpp
+        ej3/Test/baldosasDelPisoTEST.cpp
+        ej3/Test/contandoDragonesTEST.cpp
+        ej3/Test/electoresTEST.cpp
+        ej3/baldosasDelPiso.cpp
+        ej3/contandoDragones.cpp
+        ej3/electores.cpp
         )
 
 
